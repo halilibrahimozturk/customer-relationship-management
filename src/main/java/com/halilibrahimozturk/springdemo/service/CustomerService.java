@@ -1,13 +1,13 @@
-package com.halilibrahimozturk.springdemo.dao;
-
+package com.halilibrahimozturk.springdemo.service;
 
 import com.halilibrahimozturk.springdemo.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
     public List<Customer> getCustomers();
+
 
     void saveCustomer(Customer theCustomer);
 }
